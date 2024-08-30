@@ -1,0 +1,53 @@
+.outerbox
+{
+  background-color: #ffffff;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+
+.bodycard
+{
+  background-color: antiquewhite; 
+  padding: 1%;
+}
+
+
+.titlecard
+{
+  display: flex;
+   padding: 1%;
+   background-color: aquamarine;
+}
+
+.innerbox
+{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(26, 129, 0);
+}
+
+
+.collectives
+{
+  display: flex; 
+  align-self: center;
+  justify-self: center;
+}
+
+.boxstyle
+{
+  margin: 5px; 
+  background-color: rgb(165, 96, 96); 
+  display: flex; 
+  justify-content: center;
+}
+
+  @media (max-width: 1250px) 
+  {
+    .innerbox 
+    {
+      flex-direction: column;
+    }
+  }
